@@ -11,3 +11,4 @@ class VideoPost {
     this.views = 0,
   });
 }
+

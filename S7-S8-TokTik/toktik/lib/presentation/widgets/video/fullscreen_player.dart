@@ -43,7 +43,6 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
         if (snapshot.connectionState != ConnectionState.done) {
           return const Center(child: CircularProgressIndicator(strokeWidth: 2));
         }
-
         return GestureDetector(
           onTap: () {
             if (controller.value.isPlaying) {
